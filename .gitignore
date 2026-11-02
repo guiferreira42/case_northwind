@@ -1,0 +1,37 @@
+# ferramentas de apoio
+/notebooks/exploration/
+
+# Credenciais e configuração pessoal
+.env
+.env.*
+!.env.example
+.databrickscfg
+.databricks/
+*.pem
+*.key
+
+# Python e ferramentas locais
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+.idea/
+.vscode/
+
+# Dados e arquivos temporários não pertencem ao código
+*.parquet
+*.bak
+*.mdf
+*.ldf
+*.log
+tmp/
+~$*
+.DS_Store
+Thumbs.db
